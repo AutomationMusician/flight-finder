@@ -1,0 +1,23 @@
+{
+  "name": "flight-finder",
+  "version": "0.0.0",
+  "description": "A GUI to inquire about real-time flight costs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-fetch": "^2.6.7"
+  },
+  "keywords": [
+    "node",
+    "html",
+    "javascript",
+    "flights",
+    "api",
+    "sweng861"
+  ],
+  "author": "Joshua Fishman",
+  "license": "ISC"
+}
