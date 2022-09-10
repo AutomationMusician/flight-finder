@@ -4,10 +4,11 @@
   "description": "A GUI to inquire about real-time flight costs",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.2",
+    "express": "^4.18.1",
     "node-fetch": "^2.6.7"
   },
   "keywords": [
