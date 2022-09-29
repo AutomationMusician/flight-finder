@@ -22,7 +22,7 @@ h1 {
 span.required {
     color: red;
 }
-.testbox {
+.bubble-container {
     display: flex;
     justify-content: center;
     align-items: center;
