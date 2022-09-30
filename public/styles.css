@@ -39,7 +39,7 @@ span.required {
 .banner {
     position: relative;
     height: 200px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a3/Airplane_landing_at_zurich_airport.jpg");  
+    background-image: url("/images/banner.jpg");  
     background-position: 0 -140px; 
     background-size: cover;
     display: flex;
@@ -143,9 +143,14 @@ td.price {
 
 td.airport {
     text-align: center;
-    width: 33%;
+    width: 30%;
 }
 
-td > img {
-    width: 4%
+td.flight-icon td.download-icon {
+    width: 5%
+}
+
+td.flight-icon img, td.download-icon img {
+    width:20px;
+    height:20px;
 }
