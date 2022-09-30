@@ -125,3 +125,11 @@ button:hover {
     width: calc(50% - 8px);
     }
 }
+
+table {
+    width: 100%;
+}
+
+table td {
+    width: 50%;
+}

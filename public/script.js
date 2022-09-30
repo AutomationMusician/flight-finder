@@ -1,3 +1,6 @@
+
+const responseListElement = document.getElementById("response-list");
+
 function escapeHtml(unsafe) {
     return unsafe.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 }
@@ -18,18 +21,27 @@ async function addResult(result) {
     div.innerHTML =`
         <div class="bubble">
             <div class="item">
-                <p>Result</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>\$${result.totals.total.toFixed(2)}</td>
+                            <td>${escapeHtml(result.departureAirport.code)}</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     `;
-    document.getElementById("response-list").appendChild(div);
-
-
+    responseListElement.appendChild(div);
 }
 
-async function getExampleResult() {
-    const resultFetch = await fetch(`/result.json`);
-    return await resultFetch.json();
+async function getExampleResponse() {
+    const response = await fetch(`/result.json`);
+    return await response.json();
 }
 
-getExampleResult().then((result) => addResult(result));
+getExampleResponse().then((response) => {
+    response.results.forEach((result) => {
+        addResult(result);
+    });
+});
