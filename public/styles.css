@@ -83,6 +83,9 @@ select {
     position: relative;
     margin: 10px 0;
 }
+.error {
+    background-color: #f77;
+}
 .question input {
     width: auto;
     margin: 0;
@@ -130,6 +133,19 @@ table {
     width: 100%;
 }
 
-table td {
-    width: 50%;
+td.airline {
+    width: 20%;
+}
+
+td.price {
+    width: 10%;
+}
+
+td.airport {
+    text-align: center;
+    width: 33%;
+}
+
+td > img {
+    width: 4%
 }
