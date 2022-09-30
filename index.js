@@ -16,7 +16,11 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded( { extended: true } ));
 
-async function getData(from, to, date) {
+app.get('/api/get-flights/:from/:to/:date/', async (request, response) => {
+    const from = request.params.from;
+    const to = request.params.to;
+    const date = request.params.date;
+
     const queryParams = `from=${encodeURIComponent(from)}&to=${encodeURIComponent(to)}&date=${encodeURIComponent(date)}&adult=1&type=economy&currency=USD`;
     if (USE_API) {
         // Using this API: https://rapidapi.com/flightlookup/api/timetable-lookup/
@@ -31,37 +35,32 @@ async function getData(from, to, date) {
         };
 
         // TODO: add some error handling logic in case of 400 of 500 http code
-        const response = await fetch(`https://flight-fare-search.p.rapidapi.com/v2/flight/?${queryParams}`, options);
-        console.log(response);
-        const responseJson = await response.json();
-        console.log(responseJson);
-        
-        // Store this response in the cache for later so that I have more data to test with
-        // might not be thread safe, but it works for the single user use-case
-        const jsonFile = fs.readFileSync(API_CACHE_FILEPATH, 'utf8');
-        const jsonObj = JSON.parse(jsonFile);
-        jsonObj[queryParams] = responseJson;
-        fs.writeFileSync(API_CACHE_FILEPATH, JSON.stringify(jsonObj, null, 2));
+        const api_response = await fetch(`https://flight-fare-search.p.rapidapi.com/v2/flight/?${queryParams}`, options);
+        if (api_response.ok) {
+            const responseJson = await api_response.json();
+            response.json(responseJson);
 
-        return responseJson;
-
+            // Store this response in the cache for later so that I have more data to test with
+            // might not be thread safe, but it works for the single user use-case
+            const jsonFile = fs.readFileSync(API_CACHE_FILEPATH, 'utf8');
+            const jsonObj = JSON.parse(jsonFile);
+            jsonObj[queryParams] = responseJson;
+            fs.writeFileSync(API_CACHE_FILEPATH, JSON.stringify(jsonObj, null, 2));
+        }
+        else {
+            console.error(`Error using the API. ${api_response.status} ${api_response.statusText}`);
+            response.status(api_response.status).json({status: api_response.status, statusText: api_response.statusText});
+        }
     } else {
         // Using the test data to reduce API usage (so that I don't go over the quota)
         console.log("Using Cache Data");
         const jsonFile = fs.readFileSync(API_CACHE_FILEPATH, 'utf8');
         const jsonObj = JSON.parse(jsonFile);
-        return jsonObj[queryParams];
+        if (jsonObj[queryParams]) {
+            response.json(jsonObj[queryParams]);
+        }
+        else {
+            response.status(500).json({status: 500, statusText: "API not available"});
+        }
     }
-}
-
-// Get answers from database
-app.get('/api/get-flights/:from/:to/:date/', async (request, response) => {
-    const from = request.params.from;
-    const to = request.params.to;
-    const date = request.params.date;
-    const data = await getData(from, to, date);
-    response.json(data);
-  });
-
-// getData()
-    // .then(data => console.log(data));
+});

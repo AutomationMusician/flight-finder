@@ -26119,5 +26119,4004 @@
         }
       }
     ]
+  },
+  "from=DTW&to=PHL&date=2022-10-28&adult=1&type=economy&currency=USD": {
+    "status": 200,
+    "searchData": {
+      "from": "DTW",
+      "to": "PHL",
+      "date": "2022-10-28",
+      "type": "Economy",
+      "adult": 1,
+      "child": 0,
+      "infant": 0,
+      "currency": "USD"
+    },
+    "results": [
+      {
+        "id": "f9bb8f7c30e1fc3d5088ca3e321484d6b8cf11be8c428c15627c2da9b7c0e599",
+        "careerCode": "DL",
+        "flight_code": "DL-1301",
+        "flight_name": "Delta Air Lines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T22:00:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T23:33:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-1301"
+        ],
+        "duration": {
+          "text": "01h 33m",
+          "value": 93
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 204.00000000000003,
+          "tax": 32.64,
+          "base": 171.36
+        }
+      },
+      {
+        "id": "febdb26db32ffcbbc75452b833893010c4c4d0c6fe2b2950c608805d7eefe19e",
+        "careerCode": "DL",
+        "flight_code": "DL-2278",
+        "flight_name": "Delta Air Lines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:00:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T08:35:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-2278"
+        ],
+        "duration": {
+          "text": "01h 35m",
+          "value": 95
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 204.00000000000003,
+          "tax": 32.64,
+          "base": 171.36
+        }
+      },
+      {
+        "id": "38544537101e7b3ee85dce47a069dc909708ef484e70f94523199ada2c5967c1",
+        "careerCode": "AA",
+        "flight_code": "AA-5048",
+        "flight_name": "American Airlines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T08:00:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T09:43:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-5048"
+        ],
+        "duration": {
+          "text": "01h 43m",
+          "value": 103
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 225.76000000000002,
+          "tax": 35.36,
+          "base": 190.4
+        }
+      },
+      {
+        "id": "173428c896f65f2902bdfe1fbdd8f8fde567116b271c60de5919b8cfdba7d8f8",
+        "careerCode": "AA",
+        "flight_code": "AA-1297",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T16:25:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-1297",
+          "AA-626"
+        ],
+        "duration": {
+          "text": "04h 38m",
+          "value": 278
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 65
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 236.64000000000001,
+          "tax": 46.24,
+          "base": 190.4
+        }
+      },
+      {
+        "id": "05b44c32ab7a8a74ca4028715e40548777fd247e7260c4ce6e88aeebe4e305b4",
+        "careerCode": "AA",
+        "flight_code": "AA-1297",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:46:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-1297",
+          "AA-864"
+        ],
+        "duration": {
+          "text": "05h 59m",
+          "value": 359
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 149
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 236.64000000000001,
+          "tax": 46.24,
+          "base": 190.4
+        }
+      },
+      {
+        "id": "ed2c2f56930c3083e39745635944bd13a949943978039f4b12ea924b871f0e7e",
+        "careerCode": "UA",
+        "flight_code": "UA-304",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:15:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T12:28:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-304",
+          "UA-3490"
+        ],
+        "duration": {
+          "text": "05h 13m",
+          "value": 313
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "EWR",
+            "stopDuration": 162
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 239.36,
+          "tax": 46.24,
+          "base": 193.12
+        }
+      },
+      {
+        "id": "cd7b283fd59c3d4ea048ddce5cbe52c04ad069a5d0b7dfbbeb79a2c0de3995e0",
+        "careerCode": "B6",
+        "flight_code": "B6-2036",
+        "flight_name": "JetBlue Airways",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:02:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T14:12:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "B6-2036",
+          "B6-759"
+        ],
+        "duration": {
+          "text": "04h 10m",
+          "value": 250
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "BOS",
+            "stopDuration": 47
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 244.8,
+          "tax": 46.24,
+          "base": 198.56
+        }
+      },
+      {
+        "id": "7b16e9fafb108229c67f347a76a839810e4bac24bb95916e57bb66841dbb4794",
+        "careerCode": "B6",
+        "flight_code": "B6-2036",
+        "flight_name": "JetBlue Airways",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:02:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T16:47:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "B6-2036",
+          "B6-2259"
+        ],
+        "duration": {
+          "text": "06h 45m",
+          "value": 405
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "BOS",
+            "stopDuration": 202
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 244.8,
+          "tax": 46.24,
+          "base": 198.56
+        }
+      },
+      {
+        "id": "e26e35dd7b90bace4e8fc858828dbcfa7b015b9d44492150c00b42468f1f64ca",
+        "careerCode": "AA",
+        "flight_code": "AA-5137",
+        "flight_name": "American Airlines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:16:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T12:55:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-5137"
+        ],
+        "duration": {
+          "text": "01h 39m",
+          "value": 99
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 252.96,
+          "tax": 35.36,
+          "base": 217.60000000000002
+        }
+      },
+      {
+        "id": "303270fbc774f08b30c0dd81fa2f742333feabfac42aa3b820312abdcbca250b",
+        "careerCode": "B6",
+        "flight_code": "B6-1227",
+        "flight_name": "JetBlue Airways",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:09:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T14:12:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "B6-1227",
+          "B6-759"
+        ],
+        "duration": {
+          "text": "08h 03m",
+          "value": 483
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "BOS",
+            "stopDuration": 281
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 252.96,
+          "tax": 54.400000000000006,
+          "base": 198.56
+        }
+      },
+      {
+        "id": "205d91d4de4796c11619402c845b0a0bff64ed76b42469d3cbdbee1bb44c8477",
+        "careerCode": "B6",
+        "flight_code": "B6-1227",
+        "flight_name": "JetBlue Airways",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:09:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T16:47:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "B6-1227",
+          "B6-2259"
+        ],
+        "duration": {
+          "text": "10h 38m",
+          "value": 638
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "BOS",
+            "stopDuration": 436
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 258.40000000000003,
+          "tax": 54.400000000000006,
+          "base": 204.00000000000003
+        }
+      },
+      {
+        "id": "616249f0265ade539da301b2aefb907fdea06c614f52d66d5d80f616b0df3878",
+        "careerCode": "AA",
+        "flight_code": "AA-2582",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:31:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T09:17:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-2582",
+          "AA-1809"
+        ],
+        "duration": {
+          "text": "22h 46m",
+          "value": 1366
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 1151
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 258.40000000000003,
+          "tax": 54.400000000000006,
+          "base": 204.00000000000003
+        }
+      },
+      {
+        "id": "16940e5d9a250d1287a99906a0aabb896dd5fa0441a7e797ac89f8221fcfdf59",
+        "careerCode": "AA",
+        "flight_code": "AA-647",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T10:41:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-647",
+          "AA-1880"
+        ],
+        "duration": {
+          "text": "04h 20m",
+          "value": 260
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 48
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 263.84000000000003,
+          "tax": 46.24,
+          "base": 217.60000000000002
+        }
+      },
+      {
+        "id": "957b17e5fc134a852e3fc4cd3a3546f6cc040bd09bb64f86b56710bd45e66c7e",
+        "careerCode": "AA",
+        "flight_code": "AA-2582",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:31:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T16:25:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-2582",
+          "AA-626"
+        ],
+        "duration": {
+          "text": "05h 54m",
+          "value": 354
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 140
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 263.84000000000003,
+          "tax": 46.24,
+          "base": 217.60000000000002
+        }
+      },
+      {
+        "id": "222fefc697782f4e6f6b1bb06d6c8004ada01b9dae213ad8009dac444d8d0ec6",
+        "careerCode": "AA",
+        "flight_code": "AA-2582",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:31:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:46:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-2582",
+          "AA-864"
+        ],
+        "duration": {
+          "text": "07h 15m",
+          "value": 435
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 224
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 263.84000000000003,
+          "tax": 46.24,
+          "base": 217.60000000000002
+        }
+      },
+      {
+        "id": "20b9cb17c7741d7d3c36f90c61a31dae53764f5897b663ebc6ebbe0751abb8d4",
+        "careerCode": "DL",
+        "flight_code": "DL-2441",
+        "flight_name": "Delta Air Lines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:15:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T11:49:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-2441"
+        ],
+        "duration": {
+          "text": "01h 34m",
+          "value": 94
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 266.56,
+          "tax": 38.080000000000005,
+          "base": 228.48000000000002
+        }
+      },
+      {
+        "id": "acdabc2aed87db2c1824a51c85a647d334a56b8aea6f8a2ceded8c2efe71e8d4",
+        "careerCode": "DL",
+        "flight_code": "DL-2489",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T19:45:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:50:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-2489",
+          "DL-1110"
+        ],
+        "duration": {
+          "text": "05h 05m",
+          "value": 305
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 65
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 277.44,
+          "tax": 48.96,
+          "base": 228.48000000000002
+        }
+      },
+      {
+        "id": "0aefb7bd85895985866c3cff889e0456a96b7f6c891c5d115d674e56e3a46688",
+        "careerCode": "UA",
+        "flight_code": "UA-3599",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:00:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T12:28:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-3599",
+          "UA-3490"
+        ],
+        "duration": {
+          "text": "06h 28m",
+          "value": 388
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "EWR",
+            "stopDuration": 233
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 277.44,
+          "tax": 48.96,
+          "base": 228.48000000000002
+        }
+      },
+      {
+        "id": "9b5f3cc7719bfd57645ef584410f2cab340621e3c9ac7ded23f7f68cdfe382dc",
+        "careerCode": "UA",
+        "flight_code": "UA-5958",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:17:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:23:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-5958",
+          "UA-449"
+        ],
+        "duration": {
+          "text": "17h 06m",
+          "value": 1026
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 802
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 280.16,
+          "tax": 57.120000000000005,
+          "base": 223.04000000000002
+        }
+      },
+      {
+        "id": "5fa2be1fe4a896baf0d0f5026e4a51bbe3a936277a06c71f5e9a3773389a8489",
+        "careerCode": "UA",
+        "flight_code": "UA-4651",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T05:49:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:23:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4651",
+          "UA-449"
+        ],
+        "duration": {
+          "text": "18h 34m",
+          "value": 1114
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 892
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 280.16,
+          "tax": 57.120000000000005,
+          "base": 223.04000000000002
+        }
+      },
+      {
+        "id": "2c7d01c15b733afbba9854f09a70a4b94b3b1a176b6c1f552b191ce8bffee418",
+        "careerCode": "B6",
+        "flight_code": "B6-1086",
+        "flight_name": "JetBlue Airways",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T18:56:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T14:12:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "B6-1086",
+          "B6-759"
+        ],
+        "duration": {
+          "text": "19h 16m",
+          "value": 1156
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "BOS",
+            "stopDuration": 952
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 288.32,
+          "tax": 57.120000000000005,
+          "base": 231.20000000000002
+        }
+      },
+      {
+        "id": "10953f3c9598d0045029171bcd156b579ce943fd3f65140b2a0a6862c5d4d3e7",
+        "careerCode": "AA",
+        "flight_code": "AA-1358",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T15:38:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T09:17:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-1358",
+          "AA-1809"
+        ],
+        "duration": {
+          "text": "17h 39m",
+          "value": 1059
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 847
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 301.92,
+          "tax": 57.120000000000005,
+          "base": 244.8
+        }
+      },
+      {
+        "id": "df81c77f0523dfc21ba7be3e7be2c6f7db6bda0f003ccc23eb367518240c695d",
+        "careerCode": "AA",
+        "flight_code": "AA-1297",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T09:17:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-1297",
+          "AA-1809"
+        ],
+        "duration": {
+          "text": "21h 30m",
+          "value": 1290
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 1076
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 301.92,
+          "tax": 57.120000000000005,
+          "base": 244.8
+        }
+      },
+      {
+        "id": "491e8af0e2424739e92652c64f2b1f6207a43906c15cfeaf4d7b317366d8e5b2",
+        "careerCode": "DL",
+        "flight_code": "DL-393",
+        "flight_name": "Delta Air Lines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T16:25:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T18:00:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-393"
+        ],
+        "duration": {
+          "text": "01h 35m",
+          "value": 95
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 315.52000000000004,
+          "tax": 40.800000000000004,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "375b0bf34d14e0269cef3cf3eaf36ca728ecfc4ee9618a251a64a06b801b879a",
+        "careerCode": "AA",
+        "flight_code": "AA-5281",
+        "flight_name": "American Airlines",
+        "stops": "Direct",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T18:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T20:03:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-5281"
+        ],
+        "duration": {
+          "text": "01h 42m",
+          "value": 102
+        },
+        "stopSummary": {},
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 315.52000000000004,
+          "tax": 40.800000000000004,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "40e0d7f4150aa375268a21a2d7a3b82c4e88045fb444e1559651ee5703a5afd1",
+        "careerCode": "AA",
+        "flight_code": "AA-2582",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:31:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T14:49:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-2582",
+          "AA-847"
+        ],
+        "duration": {
+          "text": "04h 18m",
+          "value": 258
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 46
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "f57fadb931cf7a41577525a87542fbe86244b66b34700e2fee3065e2dbd80a32",
+        "careerCode": "AA",
+        "flight_code": "AA-1358",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T15:38:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T20:24:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-1358",
+          "AA-2974"
+        ],
+        "duration": {
+          "text": "04h 46m",
+          "value": 286
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 80
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "2c6623ff67e03b681e36ce93d7cc538faa0a7c6a4ca892e3eb99792aa4406956",
+        "careerCode": "AA",
+        "flight_code": "AA-647",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T12:55:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-647",
+          "AA-2498"
+        ],
+        "duration": {
+          "text": "06h 34m",
+          "value": 394
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 180
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "2ab7c7ae1c5ba6c32c88c1467180a74996e841158aa95e8f34a84ed2d6867ba9",
+        "careerCode": "AA",
+        "flight_code": "AA-1358",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T15:38:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T22:29:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-1358",
+          "AA-2243"
+        ],
+        "duration": {
+          "text": "06h 51m",
+          "value": 411
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 200
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "295d1190793d2badf02088a7ab193b9ec87c876c14d30c7ce054c1a63efddf3b",
+        "careerCode": "UA",
+        "flight_code": "UA-4651",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T05:49:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T10:37:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4651",
+          "UA-1638"
+        ],
+        "duration": {
+          "text": "04h 48m",
+          "value": 288
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 65
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "cc33864343b27bf17e0d66927e1f6976cbde7c266c2e0385be4e59d940d042a1",
+        "careerCode": "AA",
+        "flight_code": "AA-3108",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:46:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T12:47:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-3108",
+          "AA-2991"
+        ],
+        "duration": {
+          "text": "06h 01m",
+          "value": 361
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 128
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "18b80bf58443a6eb57bcd3aed46b823b0dec9bcd047281d7d571fdb4f9e98e3c",
+        "careerCode": "DL",
+        "flight_code": "DL-520",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T17:59:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:50:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-520",
+          "DL-1110"
+        ],
+        "duration": {
+          "text": "06h 51m",
+          "value": 411
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 171
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 326.40000000000003,
+          "tax": 51.68000000000001,
+          "base": 274.72
+        }
+      },
+      {
+        "id": "281a90273aa2b54e97a1c8f64caac71769ae725c9c7d9ec3b7d709571010d7df",
+        "careerCode": "DL",
+        "flight_code": "DL-568",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T21:15:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T10:58:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-568",
+          "DL-1289"
+        ],
+        "duration": {
+          "text": "13h 43m",
+          "value": 823
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 581
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 337.28000000000003,
+          "tax": 59.84,
+          "base": 277.44
+        }
+      },
+      {
+        "id": "4b120bc674a9f9e3dad21442f494dbc52a6e651b18eca4ae6cb339a18290a29c",
+        "careerCode": "AA",
+        "flight_code": "AA-4923",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T21:25:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-4923",
+          "AA-1941"
+        ],
+        "duration": {
+          "text": "09h 38m",
+          "value": 578
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 366
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 342.72,
+          "tax": 59.84,
+          "base": 282.88
+        }
+      },
+      {
+        "id": "ad43c96bde071d445bf7f2b11fe154bc798d226b6a17d4d5aa15c8e62dce58a1",
+        "careerCode": "AA",
+        "flight_code": "AA-3108",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:46:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T21:25:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-3108",
+          "AA-1941"
+        ],
+        "duration": {
+          "text": "14h 39m",
+          "value": 879
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 656
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 342.72,
+          "tax": 59.84,
+          "base": 282.88
+        }
+      },
+      {
+        "id": "567c18a1d1b8f3ce7df9f18ac50a1b59571209082a6be8e4cf027c4dd795a97f",
+        "careerCode": "UA",
+        "flight_code": "UA-304",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:15:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:50:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-304",
+          "UA-4437"
+        ],
+        "duration": {
+          "text": "10h 35m",
+          "value": 635
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "EWR",
+            "stopDuration": 484
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 342.72,
+          "tax": 59.84,
+          "base": 282.88
+        }
+      },
+      {
+        "id": "5e5519331da0492ed6feeb5aad5cbe83709852f8f3f4216e1109dcb58e56feef",
+        "careerCode": "UA",
+        "flight_code": "UA-5958",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:17:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:20:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-5958",
+          "UA-578"
+        ],
+        "duration": {
+          "text": "10h 03m",
+          "value": 603
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 369
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 353.6,
+          "tax": 62.56,
+          "base": 291.04
+        }
+      },
+      {
+        "id": "311db5efc8d06dd52f6b20bfa37204b82c8214bcd25d28a7aaddcb9884f6ce71",
+        "careerCode": "UA",
+        "flight_code": "UA-4651",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T05:49:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:20:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4651",
+          "UA-578"
+        ],
+        "duration": {
+          "text": "11h 31m",
+          "value": 691
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 459
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 353.6,
+          "tax": 62.56,
+          "base": 291.04
+        }
+      },
+      {
+        "id": "d2bccd79049f474f1eeac9bae0a87e07c84e3032886e44cd8b0c8df21769baac",
+        "careerCode": "UA",
+        "flight_code": "UA-5958",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:17:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T21:33:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-5958",
+          "UA-2334"
+        ],
+        "duration": {
+          "text": "14h 16m",
+          "value": 856
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 623
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 353.6,
+          "tax": 62.56,
+          "base": 291.04
+        }
+      },
+      {
+        "id": "6b3f739f075e6806cc5dabf6764a2a9f0bf5e6eb2d66508e67fdeea5219c93f7",
+        "careerCode": "UA",
+        "flight_code": "UA-4651",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T05:49:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T21:33:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4651",
+          "UA-2334"
+        ],
+        "duration": {
+          "text": "15h 44m",
+          "value": 944
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 713
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 353.6,
+          "tax": 62.56,
+          "base": 291.04
+        }
+      },
+      {
+        "id": "b27a453714e79d379850c0ac0c5b4b98e788aa691663acc63f211f6959e07fb3",
+        "careerCode": "DL",
+        "flight_code": "DL-475",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T10:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T16:47:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-475",
+          "DL-2949"
+        ],
+        "duration": {
+          "text": "06h 26m",
+          "value": 386
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 145
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 367.20000000000005,
+          "tax": 54.400000000000006,
+          "base": 312.8
+        }
+      },
+      {
+        "id": "04b67521e6bff16c1bc71b8d6dc4457f89d157a3c84c69e37952351b4f0656c2",
+        "careerCode": "UA",
+        "flight_code": "UA-4758",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T14:03:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T10:37:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4758",
+          "UA-1638"
+        ],
+        "duration": {
+          "text": "20h 34m",
+          "value": 1234
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 1015
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 369.92,
+          "tax": 62.56,
+          "base": 307.36
+        }
+      },
+      {
+        "id": "d2e530b91af6088560a55800c9cf48537b80b28d4b1f810af439f15358c34025",
+        "careerCode": "UA",
+        "flight_code": "UA-4749",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T10:37:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4749",
+          "UA-1638"
+        ],
+        "duration": {
+          "text": "23h 16m",
+          "value": 1396
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 1188
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 369.92,
+          "tax": 62.56,
+          "base": 307.36
+        }
+      },
+      {
+        "id": "b9a00391c52461072416de6021cb54de586447b30f2c58b842044de31975e1a2",
+        "careerCode": "UA",
+        "flight_code": "UA-4758",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T14:03:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T14:48:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4758",
+          "UA-781"
+        ],
+        "duration": {
+          "text": "24h 45m",
+          "value": 1485
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 1260
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 369.92,
+          "tax": 62.56,
+          "base": 307.36
+        }
+      },
+      {
+        "id": "2f1b658534eac5dae2ba6e7a930acb8c1afdb3024593b5dd3b1b98afb6a14a4f",
+        "careerCode": "AA",
+        "flight_code": "AA-4301",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T19:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:38:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-4301",
+          "AA-1091"
+        ],
+        "duration": {
+          "text": "04h 51m",
+          "value": 291
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "CLT",
+            "stopDuration": 65
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 375.36,
+          "tax": 54.400000000000006,
+          "base": 320.96000000000004
+        }
+      },
+      {
+        "id": "652b39a28c982116537ccc5eb269386fdede10a201e43b55a428119aa683c6f0",
+        "careerCode": "AA",
+        "flight_code": "AA-3108",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:46:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T11:56:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-3108",
+          "AA-1875"
+        ],
+        "duration": {
+          "text": "05h 10m",
+          "value": 310
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 85
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 375.36,
+          "tax": 54.400000000000006,
+          "base": 320.96000000000004
+        }
+      },
+      {
+        "id": "e9c61e9f8f09b04a8ea1e28bc3a8dc6f034b1585114005b000d0d684663d02d0",
+        "careerCode": "AA",
+        "flight_code": "AA-5086",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T12:15:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:33:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-5086",
+          "AA-5549"
+        ],
+        "duration": {
+          "text": "05h 18m",
+          "value": 318
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "DCA",
+            "stopDuration": 151
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 375.36,
+          "tax": 54.400000000000006,
+          "base": 320.96000000000004
+        }
+      },
+      {
+        "id": "9f9937e62e63c5ef171b363a83eae11e76308ed04c44a6fc69aca7c50a73e86e",
+        "careerCode": "AA",
+        "flight_code": "AA-4923",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:50:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-4923",
+          "AA-2840"
+        ],
+        "duration": {
+          "text": "06h 03m",
+          "value": 363
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 160
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 375.36,
+          "tax": 54.400000000000006,
+          "base": 320.96000000000004
+        }
+      },
+      {
+        "id": "a72874783b954595ac7b9b0af16a8f182d20bdf51349b39e4ada8102eb54217b",
+        "careerCode": "AA",
+        "flight_code": "AA-3108",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:46:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T14:30:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-3108",
+          "AA-2098"
+        ],
+        "duration": {
+          "text": "07h 44m",
+          "value": 464
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 250
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 380.8,
+          "tax": 62.56,
+          "base": 318.24
+        }
+      },
+      {
+        "id": "29d00513a4761a81a0c9c9f817950db7db2abd9ab6f5b2a6a38d2b2bd0a1de61",
+        "careerCode": "AA",
+        "flight_code": "AA-4923",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:47:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T20:00:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-4923",
+          "AA-490"
+        ],
+        "duration": {
+          "text": "08h 13m",
+          "value": 493
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 290
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 380.8,
+          "tax": 62.56,
+          "base": 318.24
+        }
+      },
+      {
+        "id": "967bce2cf618f83b01e612e155012a6359c73ff7ed0dcec87d78e18c7668577a",
+        "careerCode": "AA",
+        "flight_code": "AA-3108",
+        "flight_name": "American Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T06:46:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T20:00:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "AA-3108",
+          "AA-490"
+        ],
+        "duration": {
+          "text": "13h 14m",
+          "value": 794
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 580
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 380.8,
+          "tax": 62.56,
+          "base": 318.24
+        }
+      },
+      {
+        "id": "8f8c9c9d1c19ee1bd70e18f89d81117078bd5e39253ccaf4afcc785fc3492ce5",
+        "careerCode": "UA",
+        "flight_code": "UA-4758",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T14:03:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:23:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4758",
+          "UA-449"
+        ],
+        "duration": {
+          "text": "10h 20m",
+          "value": 620
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 402
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 386.24,
+          "tax": 62.56,
+          "base": 323.68
+        }
+      },
+      {
+        "id": "47c0affc3a31d3aded4d93db6dfdbe97e79f93774b58c682798ac6be224d7bea",
+        "careerCode": "UA",
+        "flight_code": "UA-4749",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:23:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4749",
+          "UA-449"
+        ],
+        "duration": {
+          "text": "13h 02m",
+          "value": 782
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 575
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 386.24,
+          "tax": 62.56,
+          "base": 323.68
+        }
+      },
+      {
+        "id": "241d20736e14ebff4522b2eb457a0ab7c366391a67624e6aa4c14107e81fa32d",
+        "careerCode": "UA",
+        "flight_code": "UA-1195",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T18:16:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-29T00:23:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-1195",
+          "UA-449"
+        ],
+        "duration": {
+          "text": "06h 07m",
+          "value": 367
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 164
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 388.96000000000004,
+          "tax": 57.120000000000005,
+          "base": 331.84000000000003
+        }
+      },
+      {
+        "id": "503a841127e406a555102effaa35984e1a7b77bc3a6cb67435de340c52ac8e4a",
+        "careerCode": "UA",
+        "flight_code": "UA-3453",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:41:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:50:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-3453",
+          "UA-4437"
+        ],
+        "duration": {
+          "text": "06h 09m",
+          "value": 369
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "EWR",
+            "stopDuration": 202
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 388.96000000000004,
+          "tax": 57.120000000000005,
+          "base": 331.84000000000003
+        }
+      },
+      {
+        "id": "95c69ec66df7c0e8b8e08205884dceb4c026fe411a646767252f67a76f028733",
+        "careerCode": "DL",
+        "flight_code": "DL-520",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T17:59:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T22:45:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-520",
+          "DL-2465"
+        ],
+        "duration": {
+          "text": "04h 46m",
+          "value": 286
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 45
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 416.16,
+          "tax": 57.120000000000005,
+          "base": 359.04
+        }
+      },
+      {
+        "id": "4d1b506b6f4f378cb75d46248b45f5c13765cd5193ed1a38b2176592a547eb54",
+        "careerCode": "UA",
+        "flight_code": "UA-4749",
+        "flight_name": "United Airlines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T11:21:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T17:20:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "UA-4749",
+          "UA-578"
+        ],
+        "duration": {
+          "text": "05h 59m",
+          "value": 359
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ORD",
+            "stopDuration": 142
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 454.24,
+          "tax": 59.84,
+          "base": 394.40000000000003
+        }
+      },
+      {
+        "id": "afd461b44af790793bebd7bf158dba8fc41bd102c5acd64c61aa71b79c256239",
+        "careerCode": "DL",
+        "flight_code": "DL-1079",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T15:50:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T20:51:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-1079",
+          "DL-1551"
+        ],
+        "duration": {
+          "text": "05h 01m",
+          "value": 301
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 64
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 524.96,
+          "tax": 65.28,
+          "base": 459.68
+        }
+      },
+      {
+        "id": "74b92e006e51abd53793642446aedcf47af208cb3e7d9b8f7c24058f00a16552",
+        "careerCode": "DL",
+        "flight_code": "DL-2528",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T07:00:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T12:13:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-2528",
+          "DL-1289"
+        ],
+        "duration": {
+          "text": "05h 13m",
+          "value": 313
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 70
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 715.36,
+          "tax": 78.88000000000001,
+          "base": 636.48
+        }
+      },
+      {
+        "id": "9a187dd63fe3e7d0bff121776f11867e13f201d486424c83808c44ebf4f6c860",
+        "careerCode": "DL",
+        "flight_code": "DL-441",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T12:15:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T18:20:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-441",
+          "DL-2354"
+        ],
+        "duration": {
+          "text": "06h 05m",
+          "value": 365
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 126
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 715.36,
+          "tax": 78.88000000000001,
+          "base": 636.48
+        }
+      },
+      {
+        "id": "3340d5117ad58303356ec74d2e2d928360d6dffc27fd06840c17b86c211cbb8d",
+        "careerCode": "DL",
+        "flight_code": "DL-502",
+        "flight_name": "Delta Air Lines",
+        "stops": "1 Stop",
+        "cabinType": "Economy",
+        "baggage": {
+          "cabin": {
+            "qty": 1,
+            "unit": "KG",
+            "text": "7 KG",
+            "allowance": 7
+          },
+          "checkIn": null
+        },
+        "currency": "USD",
+        "departureAirport": {
+          "time": "2022-10-28T08:32:00",
+          "code": "DTW",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Detroit Metropolitan Wayne County Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Detroit"
+        },
+        "arrivalAirport": {
+          "time": "2022-10-28T14:41:00",
+          "code": "PHL",
+          "tz": "America/New_York",
+          "timeZone": "-5.00",
+          "type": "1",
+          "label": "Philadelphia International Airport",
+          "country": {
+            "label": "United States",
+            "code": "US"
+          },
+          "city": "Philadelphia"
+        },
+        "path": [
+          "DL-502",
+          "DL-1421"
+        ],
+        "duration": {
+          "text": "06h 09m",
+          "value": 369
+        },
+        "stopSummary": {
+          "0": {
+            "airport": "ATL",
+            "stopDuration": 123
+          }
+        },
+        "totals": {
+          "currency": "USD",
+          "baggage": null,
+          "penalty": null,
+          "total": 715.36,
+          "tax": 78.88000000000001,
+          "base": 636.48
+        }
+      }
+    ]
   }
 }

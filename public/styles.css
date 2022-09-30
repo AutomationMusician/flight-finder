@@ -22,7 +22,7 @@ h1 {
 span.required {
     color: red;
 }
-.testbox {
+.bubble-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +83,9 @@ select {
     position: relative;
     margin: 10px 0;
 }
+.error {
+    background-color: #f77;
+}
 .question input {
     width: auto;
     margin: 0;
@@ -124,4 +127,25 @@ button:hover {
     .city-item select {
     width: calc(50% - 8px);
     }
+}
+
+table {
+    width: 100%;
+}
+
+td.airline {
+    width: 20%;
+}
+
+td.price {
+    width: 10%;
+}
+
+td.airport {
+    text-align: center;
+    width: 33%;
+}
+
+td > img {
+    width: 4%
 }
