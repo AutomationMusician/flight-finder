@@ -16,7 +16,12 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded( { extended: true } ));
 
-app.get('/api/get-flights/:from/:to/:date/', async (request, response) => {
+/**
+ * React to a get-flights query from the client
+ * @param {any} request express request for a get-flights request
+ * @param {any} response express response for a get-flights request
+ */
+async function getFlights(request, response) {
     const from = request.params.from;
     const to = request.params.to;
     const date = request.params.date;
@@ -25,42 +30,72 @@ app.get('/api/get-flights/:from/:to/:date/', async (request, response) => {
     if (USE_API) {
         // Using this API: https://rapidapi.com/flightlookup/api/timetable-lookup/
         // for running against the API (will count against the request quota)
+        await queryAPI(queryParams, response);
 
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': RAPID_API_KEY,
-                'X-RapidAPI-Host': RAPID_API_HOST
-            }
-        };
-
-        // TODO: add some error handling logic in case of 400 of 500 http code
-        const api_response = await fetch(`https://flight-fare-search.p.rapidapi.com/v2/flight/?${queryParams}`, options);
-        if (api_response.ok) {
-            const responseJson = await api_response.json();
-            response.json(responseJson);
-
-            // Store this response in the cache for later so that I have more data to test with
-            // might not be thread safe, but it works for the single user use-case
-            const jsonFile = fs.readFileSync(API_CACHE_FILEPATH, 'utf8');
-            const jsonObj = JSON.parse(jsonFile);
-            jsonObj[queryParams] = responseJson;
-            fs.writeFileSync(API_CACHE_FILEPATH, JSON.stringify(jsonObj, null, 2));
-        }
-        else {
-            console.error(`Error using the API. ${api_response.status} ${api_response.statusText}`);
-            response.status(api_response.status).json({status: api_response.status, statusText: api_response.statusText});
-        }
     } else {
         // Using the test data to reduce API usage (so that I don't go over the quota)
-        console.log("Using Cache Data");
+        await queryCache(queryParams, response);
+    }
+}
+
+/**
+ * Query the API using the queryParams and respond to the user using the response object
+ * @param {string} queryParams url parameters to use for the API GET request
+ * @param {*} response express response object for the request from the client
+ */
+async function queryAPI(queryParams, response) {
+    const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Key': RAPID_API_KEY,
+            'X-RapidAPI-Host': RAPID_API_HOST
+        }
+    };
+
+    const api_response = await fetch(`https://flight-fare-search.p.rapidapi.com/v2/flight/?${queryParams}`, options);
+    if (api_response.ok) {
+        const responseJson = await api_response.json();
+        response.json(responseJson);
+
+        // Store this response in the cache for later so that I have more data to test with
+        // might not be thread safe, but it works for the single user use-case
         const jsonFile = fs.readFileSync(API_CACHE_FILEPATH, 'utf8');
         const jsonObj = JSON.parse(jsonFile);
-        if (jsonObj[queryParams]) {
-            response.json(jsonObj[queryParams]);
-        }
-        else {
-            response.status(500).json({status: 500, statusText: "API not available"});
-        }
+        jsonObj[queryParams] = responseJson;
+        fs.writeFileSync(API_CACHE_FILEPATH, JSON.stringify(jsonObj, null, 2));
     }
-});
+    else {
+        let statusText;
+        try {
+            const responseJson = await api_response.json();
+            console.error(`Error JSON: ${JSON.stringify(responseJson, null, 2)}`)
+            statusText = responseJson.error;
+        }
+        catch (e) {
+            statusText = api_response.statusText;
+        }
+        console.error(`Error using the API. ${api_response.status} ${statusText}`);
+        response.status(api_response.status).json({status: api_response.status, statusText: statusText});
+        
+    }
+}
+
+/**
+ * Query the cache using the queryParams and respond to the user using the response object
+ * @param {string} queryParams url parameters to use for the API GET request
+ * @param {*} response express response object for the request from the client
+ */
+function queryCache(queryParams, response) {
+    console.log("Using Cache Data");
+    const jsonFile = fs.readFileSync(API_CACHE_FILEPATH, 'utf8');
+    const jsonObj = JSON.parse(jsonFile);
+    if (jsonObj[queryParams]) {
+        response.json(jsonObj[queryParams]);
+    }
+    else {
+        response.status(500).json({status: 500, statusText: "Data not available"});
+    }
+}
+
+// attach getFlights method to the endpoint
+app.get('/api/get-flights/:from/:to/:date/', getFlights);
