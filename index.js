@@ -1,3 +1,14 @@
+/**
+ * Author: Joshua Fishman
+ * License: ISC
+ * Pennsylvania State University Great Valley
+ * SWENG 861
+ * 
+ * This file contains all of the server-side logic for the application 
+ * including handling requests from the client and making queries to 
+ * the external API.
+ */
+
 require('dotenv').config();
 const fetch = require('node-fetch');
 const fs = require('fs');
@@ -21,7 +32,7 @@ app.use(express.urlencoded( { extended: true } ));
  * @param {any} request express request for a get-flights request
  * @param {any} response express response for a get-flights request
  */
-async function getFlights(request, response) {
+function getFlights(request, response) {
     const from = request.params.from;
     const to = request.params.to;
     const date = request.params.date;
@@ -30,11 +41,10 @@ async function getFlights(request, response) {
     if (USE_API) {
         // Using this API: https://rapidapi.com/flightlookup/api/timetable-lookup/
         // for running against the API (will count against the request quota)
-        await queryAPI(queryParams, response);
-
+        queryAPI(queryParams, response);
     } else {
         // Using the test data to reduce API usage (so that I don't go over the quota)
-        await queryCache(queryParams, response);
+        queryCache(queryParams, response);
     }
 }
 

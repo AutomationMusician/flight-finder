@@ -1,3 +1,11 @@
+/**
+ * Author: Joshua Fishman
+ * License: ISC
+ * Pennsylvania State University Great Valley
+ * SWENG 861
+ * 
+ * This file contains all of the client-side logic for this project and is used by index.html
+ */
 
 const responseListElement = document.getElementById("response-list");
 
