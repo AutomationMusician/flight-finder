@@ -1,4 +1,4 @@
+data/
 .DS_Store
 node_modules
 .env
-result.xml
